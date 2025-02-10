@@ -3,7 +3,7 @@ import { expect, test } from "vitest";
 import { add, subtract, multiply, divide } from "../lib/utils";
 
 test("adds 1 + 2 to equal 3", () => {
-  expect(add(1, 2)).toBe(3);
+  expect(add([1, 2])).toBe(3);
 });
 
 test("substract 5 - 2 to equal 3", () => {

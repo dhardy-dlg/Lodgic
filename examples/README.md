@@ -4,7 +4,7 @@
 
 ```typescript
 import { add } from "../lib/utils";
-add(1, 2);
+add([1, 2]);
 ```
 
 ## Substract
