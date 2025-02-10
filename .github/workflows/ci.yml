@@ -16,7 +16,7 @@ jobs:
         run: bun install
 
       - name: Run tests and collect coverage
-        run: bun run test
+        run: bun run coverage
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v5
