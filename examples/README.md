@@ -11,7 +11,7 @@ add([1, 2]);
 
 ```typescript
 import { subtract } from "../lib/utils";
-subtract(4, 4);
+subtract([4, 4]);
 ```
 
 ## Multiply
