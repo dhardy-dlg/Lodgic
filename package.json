@@ -1,16 +1,25 @@
 {
   "name": "lodgic",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "tsc",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
+    "semantic-release": "^24.2.2",
     "typescript": "~5.7.2",
     "vite": "^6.1.0",
     "vitest": "^3.0.5"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
