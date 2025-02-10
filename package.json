@@ -1,6 +1,6 @@
 {
   "name": "@dorianh/lodgic",
-  "private": true,
+  "private": false,
   "version": "0.0.0-development",
   "type": "module",
   "scripts": {
