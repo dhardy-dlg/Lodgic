@@ -7,9 +7,11 @@
     "build": "tsc",
     "preview": "vite preview",
     "test": "vitest",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@vitest/coverage-istanbul": "^3.0.5",
     "semantic-release": "^24.2.2",
     "typescript": "~5.7.2",
     "vite": "^6.1.0",
